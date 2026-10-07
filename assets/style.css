@@ -1,10 +1,31 @@
 :root{
   --primary-font: "Manrope", sans-serif;
-  --accent-color: #293356;
+  --primary-color: #293356;
 }
 
 *{
   margin: unset;
   padding: unset;
   box-sizing: border-box;
+  font-family: var(--primary-font);
+}
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+p {
+  color: var(--primary-color);
+  font-size: 13px;
+  text-align: center;
 }
