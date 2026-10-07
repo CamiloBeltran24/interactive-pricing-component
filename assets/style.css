@@ -1,0 +1,10 @@
+:root{
+  --primary-font: "Manrope", sans-serif;
+  --accent-color: #293356;
+}
+
+*{
+  margin: unset;
+  padding: unset;
+  box-sizing: border-box;
+}
